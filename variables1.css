@@ -1,0 +1,40 @@
+body {
+  background: #345; }
+  body > h1 {
+    font-size: 3em;
+    color: red;
+    margin: 8px 0 0 15px; }
+
+.entry h1 {
+  font-size: 30px;
+  color: #333;
+  margin: 20px;
+  border: 1px solid black;
+  background: white;
+  width: 45%; }
+.entry p {
+  color: #333;
+  font-size: 30px;
+  margin: 20px;
+  border: 1px solid black;
+  background: white;
+  width: 45%; }
+.entry a {
+  font-size: 30px;
+  color: #333; }
+  .entry a:hover {
+    color: blue; }
+
+div.footer {
+  font-size: 30px;
+  color: #333;
+  margin: 20px;
+  border: 1px solid black;
+  background: white;
+  width: 45%; }
+  div.footer a {
+    color: #333; }
+    div.footer a:hover {
+      color: blue; }
+
+/*# sourceMappingURL=variables1.css.map */

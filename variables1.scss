@@ -1,0 +1,49 @@
+@import "variablesfile.scss";
+body {
+  background: #345;
+  > h1 {
+    font-size: 3em;
+    color: red;
+    margin: 8px 0 0 15px;
+  }
+}
+
+.entry {
+   h1 {
+    font-size: $fontSize;
+    color: $primary-color;
+    margin: $margin;
+    border: $border;
+    background: $background;
+    width: $width;
+  }
+  p  {
+    color: $primary-color;
+    font-size: $fontSize;
+    margin: $margin;
+    border: $border;
+    background: $background;
+    width: $width;
+  }
+  a {
+    font-size: $fontSize;
+    color: $primary-color;
+    &:hover {
+      color: blue;
+    }
+  }
+}
+div.footer {
+  font-size: $fontSize;
+  color: $primary-color;
+  margin: $margin;
+  border: $border;
+  background: $background;
+  width: $width;
+  a {
+    color: $primary-color;
+  &:hover {
+    color: blue;
+    }
+  }
+}
